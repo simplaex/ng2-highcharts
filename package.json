@@ -28,7 +28,9 @@
   "module": "index.js",
   "typings": "index.d.ts",
   "homepage": "https://github.com/Bigous/ng2-highcharts",
-  "dependencies": {},
+  "dependencies": {
+    "highcharts-custom-events": "^2.1.6"
+  },
   "peerDependencies": {
     "@angular/core": ">=4.0.0",
     "@types/highcharts": ">=4.2.1",
@@ -42,9 +44,8 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/platform-server": "^4.0.0",
-    "typescript": "^2.2.1",
     "@types/highcharts": "^4.2.1",
-    "@types/node": "6.0.52",
+    "@types/node": "^6.0.52",
     "awesome-typescript-loader": "3.0.0-beta.17",
     "codelyzer": "2.0.0-beta.3",
     "commitizen": "^2.9.2",
@@ -59,6 +60,7 @@
     "ts-helpers": "1.1.2",
     "tslint": "4.0.2",
     "tslint-loader": "3.3.0",
+    "typescript": "^2.2.1",
     "webpack": "2.1.0-beta.27",
     "zone.js": "0.7.2"
   },
