@@ -9,6 +9,7 @@ export class Ng2Highcharts extends Ng2HighchartsBase {
 
 	constructor(ele: ElementRef, _differs: KeyValueDiffers) {
 		super(ele, _differs);
+		const HighchartsCustomEvents = require('highcharts-custom-events')((<any>window).Highcharts);
 	}
 
 	draw(opt: any /* HighchartsOptions */): void {
