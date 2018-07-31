@@ -13,9 +13,7 @@ import { Ng2HighchartsBase } from "./ng2-highcharts-base";
 var Ng2Highcharts = /** @class */ (function (_super) {
     __extends(Ng2Highcharts, _super);
     function Ng2Highcharts(ele, _differs) {
-        var _this = _super.call(this, ele, _differs) || this;
-        require('highcharts-custom-events')(window.Highcharts);
-        return _this;
+        return _super.call(this, ele, _differs) || this;
     }
     Ng2Highcharts.prototype.draw = function (opt /* HighchartsOptions */) {
         if (!opt) {

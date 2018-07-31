@@ -13,8 +13,8 @@
       "es2015"
     ],
     "types": [
-      "highcharts",
-      "node"
+      "node",
+      "highcharts"
     ]
   },
   "files": [
